@@ -1,0 +1,8 @@
+title: Management AI Bridge
+description: Translating GenAI into responsible management research, teaching, and practice.
+url: ""
+baseurl: "/management-ai-bridge"
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md

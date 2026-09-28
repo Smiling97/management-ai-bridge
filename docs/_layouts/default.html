@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="{{ '/' | relative_url }}">Management AI Bridge</a>
+        <div class="nav-links">
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/getting-started/' | relative_url }}">Start</a>
+          <a href="{{ '/tutorials/' | relative_url }}">Tutorials</a>
+          <a href="{{ '/prompts/' | relative_url }}">Prompts</a>
+          <a href="{{ '/resources/' | relative_url }}">Resources</a>
+          <a href="{{ '/newsletter/' | relative_url }}">Newsletter</a>
+        </div>
+      </nav>
+    </header>
+    <main class="page">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <p>Open resources for responsible GenAI use in management research, teaching, and practice.</p>
+    </footer>
+  </body>
+</html>
