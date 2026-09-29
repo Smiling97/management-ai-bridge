@@ -51,3 +51,7 @@ Good contributions include:
 - Corrections to outdated or inaccurate content
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+## Maintainer Notes
+
+Future AI agents and maintainers should read [AGENTS.md](AGENTS.md) before changing the project structure, content model, or deployment configuration.
