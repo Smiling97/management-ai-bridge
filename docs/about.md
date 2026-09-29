@@ -32,6 +32,8 @@ Many GenAI resources focus on technical depth: models, coding, infrastructure, b
 - Practitioners applying AI to organizational analysis, strategy, decision support, and productivity.
 - Community members who want a shared place to exchange tools, prompts, and lessons.
 
-## Proposal Framing
+## Why We Established This Project
 
-For research funding and infrastructure proposals, the project can be framed as field-specific AI cyberinfrastructure and workforce development. It broadens access to AI resources by helping nontechnical research and education communities translate GenAI into responsible management workflows.
+This project was established to appreciate and share the knowledge we have gained through generous support from NSF NAIRR and related community learning activities.
+
+By organizing workshop materials, tutorials, prompts, and responsible-use guidance in one open space, Management AI Bridge helps the community continue learning together and apply GenAI more thoughtfully in management research, teaching, and practice.
